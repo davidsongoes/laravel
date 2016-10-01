@@ -28,7 +28,7 @@ $factory->define(\Charlie\Customer::class, function (Faker\Generator $faker) {
         'name' => $faker->name,
         'city' =>$faker->city,
         'state' => $faker->stateAbbr,
-        'birthdate' => $faker->datetime(),
+        'birthdate' => $faker->datetime('2016-10-30'),
         'special_customer' => $faker->boolean,
 
     ];
